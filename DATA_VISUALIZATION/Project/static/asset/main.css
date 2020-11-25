@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis line,
+.axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.main {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        display: block
+    }
+}
+
+#usMap {
+    flex: 0 0 75%;
+    box-shadow: inset -8px 0 10px -6px #ACD0E6;
+}
+
+#infomation {
+    width: 100%;
+    padding: 12px;
+    background: #F7FBFE;
+}
+
+#control {
+    height: 25%;
+    border-bottom: 3px solid #e9eced;
+}
+
+.sort {
+    margin-top: 24px;
+}
+
+.sort>select {
+    font-size: 16px;
+    color: #0d47a1;
+    text-transform: capitalize;
+    border: 1px solid #1e88e5;
+    border-radius: 4px;
+    padding: 4px 24px;
+    outline: none;
+}
+
+.rank {
+    color: red
+}
+
+#rankScroller {
+    margin-top: 16px;
+    height: 50px;
+    position: relative;
+}
+
+.rank-ruler>.rank-title {
+    text-align: center;
+}
+
+.btn-custom {
+    font-size: 16px;
+    color: #0d47a1;
+    text-transform: capitalize;
+    border: 1px solid #1e88e5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    outline: none;
+    float: right;
+    background: transparent;
+}

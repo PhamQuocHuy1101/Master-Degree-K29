@@ -1,0 +1,17 @@
+{
+    "name": "homework-03",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "live-server --open=/public"
+    },
+    "author": "PhamQuocHuy",
+    "license": "ISC",
+    "dependencies": {
+        "topojson-client": "^3.1.0"
+    },
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    }
+}

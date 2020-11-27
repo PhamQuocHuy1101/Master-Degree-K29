@@ -1,0 +1,145 @@
+.main {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+#sanMap {
+    flex: 0 0 75%;
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.control {
+    padding: 16px;
+    background: #fafafa;
+}
+
+.section {
+    padding: 24px 16px;
+    border: 1px solid #3949ab;
+    border-radius: 8px;
+    position: relative;
+    background: #f0f0f01c;
+}
+
+.section>label {
+    position: absolute;
+    top: -16px;
+    left: 16px;
+    background: #fafafa;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0d47a1;
+}
+
+.filter {
+    margin-top: 24px;
+}
+
+.filter-item {
+    border-bottom: 1px solid #3949ab30;
+    padding-bottom: 16px;
+}
+
+.zone {
+    text-align: center;
+}
+
+.score {
+    padding-bottom: 0;
+}
+
+.group-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.group-date>label {
+    flex: 0 0 25%;
+}
+
+.group-date>input {
+    border: 1px solid #1e88e5;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.reset {
+    padding-top: 24px;
+    text-align: center;
+}
+
+.detail {
+    display: none;
+    margin-top: 24px;
+    line-height: 24px;
+}
+
+.detail .name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0d47a1;
+}
+
+.detail .address {
+    text-align: center;
+}
+
+.detail .item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail .item .content {
+    flex: 0 0 50%;
+    word-break: break-all;
+}
+
+.detail .complain {
+    font-style: italic;
+    word-break: break-word;
+    color: #f44336;
+}
+
+.m-b {
+    margin-bottom: 16px;
+}
+
+.m-t {
+    margin-top: 24px;
+}
+
+button {
+    font-size: 16px;
+    color: #0d47a1;
+    text-transform: capitalize;
+    border: 1px solid #1e88e5;
+    border-radius: 4px;
+    padding: 4px 12px;
+    outline: none;
+    background: transparent;
+    min-width: 8em;
+    cursor: pointer;
+}
+
+select {
+    font-size: 16px;
+    color: #0d47a1;
+    text-transform: capitalize;
+    border: 1px solid #1e88e5;
+    border-radius: 4px;
+    padding: 4px 22px;
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        display: block
+    }
+}
